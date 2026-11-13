@@ -1,0 +1,13 @@
+# normalise line endings in the repository; keep LF for sources and scripts
+* text=auto eol=lf
+
+# Windows resource object (icon + manifest) linked into the .exe
+*.syso binary
+*.png binary
+*.jpg binary
+*.ico binary
+
+# vendored third-party sources: kept byte-identical to upstream (no line-ending
+# normalisation) and excluded from language statistics
+third_party/** -text linguist-vendored
+licenses/THIRD_PARTY_NOTICES.txt linguist-generated

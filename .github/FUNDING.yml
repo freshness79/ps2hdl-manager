@@ -1,0 +1,8 @@
+# "Sponsor" button on GitHub. Uncomment the service you use and put your name,
+# or use custom: with a full link. Also pass the same page to the build to show
+# it in About:  make DONATE_URL=https://ko-fi.com/<name>
+#
+# ko_fi: <name>
+# buy_me_a_coffee: <name>
+# github: [freshness79]
+# custom: ["https://…"]

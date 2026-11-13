@@ -1,0 +1,16 @@
+# build outputs (make build / windows / mac / dist)
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# debug file written by hdl_dump (the app runs it in a private temp folder)
+info.sys

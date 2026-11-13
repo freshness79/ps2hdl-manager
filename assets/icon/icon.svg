@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- PS2 HDL Manager app icon: a hard drive whose platter is a game disc.
+       Original artwork for this project (same licence as the code). -->
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3443"/>
+      <stop offset="1" stop-color="#11151c"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5568"/>
+      <stop offset="1" stop-color="#1c222c"/>
+    </linearGradient>
+    <radialGradient id="disc" cx="0.42" cy="0.38" r="0.75">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="0.55" stop-color="#b9c9e6"/>
+      <stop offset="1" stop-color="#7d93bb"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fb2ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#7fb2ff" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#b48cff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#b48cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6aa4ff"/>
+      <stop offset="1" stop-color="#2f6fe0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- drive body -->
+  <rect x="72" y="72" width="880" height="880" rx="196" fill="url(#rim)"/>
+  <rect x="88" y="88" width="848" height="848" rx="182" fill="url(#body)"/>
+  <!-- screws -->
+  <g fill="#3a4454">
+    <circle cx="196" cy="196" r="22"/><circle cx="828" cy="196" r="22"/>
+    <circle cx="196" cy="828" r="22"/><circle cx="828" cy="828" r="22"/>
+  </g>
+
+  <!-- platter = game disc -->
+  <circle cx="470" cy="470" r="318" fill="#0b0e13" opacity="0.55"/>
+  <circle cx="462" cy="458" r="312" fill="url(#disc)"/>
+  <circle cx="462" cy="458" r="312" fill="url(#sheen)"/>
+  <g fill="none" stroke="#5f759c" stroke-opacity="0.35" stroke-width="5">
+    <circle cx="462" cy="458" r="262"/><circle cx="462" cy="458" r="212"/><circle cx="462" cy="458" r="162"/>
+  </g>
+  <circle cx="462" cy="458" r="96" fill="#dfe8f7" stroke="#8ea3c7" stroke-width="6"/>
+  <circle cx="462" cy="458" r="44" fill="#151a22"/>
+
+  <!-- actuator arm -->
+  <g>
+    <path d="M 760 760 L 560 560" stroke="#0b0e13" stroke-opacity="0.45" stroke-width="58" stroke-linecap="round"/>
+    <path d="M 748 748 L 548 548" stroke="url(#arm)" stroke-width="46" stroke-linecap="round"/>
+    <circle cx="760" cy="760" r="78" fill="url(#arm)"/>
+    <circle cx="760" cy="760" r="30" fill="#1b4fae"/>
+    <rect x="520" y="520" width="56" height="56" rx="12" transform="rotate(45 548 548)" fill="#e9f1ff"/>
+  </g>
+
+  <!-- activity LED -->
+  <circle cx="828" cy="512" r="20" fill="#3fb27f"/>
+  <circle cx="828" cy="512" r="34" fill="#3fb27f" opacity="0.25"/>
+</svg>

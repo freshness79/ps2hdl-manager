@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PS2 HDL Manager
+GenericName=PS2 game library manager
+Comment=Install and manage PlayStation 2 games on a PS2 hard drive (OPL, HD Loader)
+Exec=ps2hdl-manager
+Icon=ps2hdl-manager
+Terminal=false
+Categories=Utility;Game;
+Keywords=PS2;OPL;HDL;hdl_dump;APA;
